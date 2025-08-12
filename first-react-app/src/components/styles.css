@@ -1,0 +1,207 @@
+body {
+  display: flex;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 1049px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.header  {
+  color: #a0a0a0;
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.filters {
+  max-width: 272px;
+  border-radius: 8px;
+  
+}
+
+.filters {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #858AE3;
+  max-height: 480px;
+}
+
+.filtersCard {
+  background-color: #E8EBF2;
+  width: 234px;
+  padding: 19px 19px 40px 19px;
+  margin-bottom: 47px;
+  border-radius: 10px;
+
+}
+
+.filtersCardPanel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 21px;
+  margin-top: 19px;
+  gap: 21px;
+}
+
+.tickets {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+}
+
+.ticket {
+  background-color: #E8EBF2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  display: flex;
+  transition: transform 0.2s, box-shadow 0.2s;
+  justify-content: space-between;
+  height: 124px;
+  max-width: 677px;
+  padding: 25px;
+}
+
+.ticket:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 700;
+  color: #9b59b6; 
+}
+
+.company {
+  font-size: 14px;
+  color: #3498db; 
+}
+
+.ticket-info {
+  font-size: 14px;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.load-more {
+  margin-top: 74px;
+  padding: 15px 20px;
+  background-color: #4E148C; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 727px;
+  transition: background-color 0.3s;
+}
+
+
+
+#root {
+  margin: auto;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+  margin-right: 34px;
+}
+
+
+.price, h1, h4 {
+
+  color: #4E148C;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ticketOne {
+  display: flex;
+  flex-wrap: wrap;
+  width: 140px;
+}
+
+.speed, .speedThree, .speedOne  {
+  width: 242px;
+  height: 55px;
+  border: 1px solid #4E148C;
+  color: #4E148C;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.speedOne  {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.speedThree {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.LogoTicket {
+  max-width: 180px;
+}
+
+.ticketOne, .ticketTwo, .ticketThree {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button, input {
+  cursor: pointer;
+}
+
+input {
+  color: #4E148C;
+}
+
+.active {
+  background-color: #4E148C;
+  color: #F7F9F7;
+}
+
+p {
+  margin: 5px;
+}
+.pLow {
+  color: #858AE3;
+}
+
+.pPurp {
+  color: #4E148C;
+}
